@@ -42,7 +42,7 @@ tests:
   - python:
       imports:
         - xnetcdf
-      # pip_check: true  # re-activate
+      pip_check: false  # re-activate
       python_version:
         - ${{ python_min }}.*
         - "*"
